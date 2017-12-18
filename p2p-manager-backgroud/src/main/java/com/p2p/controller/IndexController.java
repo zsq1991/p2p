@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @RequestMapping("/test")
     public String test(){
-        return "你好！！！SpringBoot!!";
+        return "你好！！！SpringBoot!!!";
     }
 }
